@@ -1,0 +1,74 @@
+.hero_seciton {
+    padding-top: 64px;
+    padding-bottom: 128px;
+
+    &__content {
+        text-align: center;
+    }
+
+    &__img {
+        text-align: center;
+    }
+
+
+    &__title {
+        margin-top: 53px;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 112%;
+        color: #828282;
+        margin-bottom: 16px;
+    }
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 178%;
+        color: #828282;
+        margin-bottom: 40px;
+    }
+
+    &__btn1 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 131%;
+        letter-spacing: 0.12em;
+        color: #fff;
+        border-radius: 10px;
+        background: #828282;
+        padding: 20px 28px;
+        margin-bottom: 20px;
+    }
+
+    &__btn2 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 131%;
+        letter-spacing: 0.12em;
+        color: #fff;
+        border-radius: 10px;
+        background: #b6b6b6;
+        padding: 20px 28px;
+
+    }
+
+    @media screen and (min-width:768px) {
+        &__blok{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+
+        &__content {
+            text-align: start;
+            width: 635px;
+        }
+    
+    }
+
+}

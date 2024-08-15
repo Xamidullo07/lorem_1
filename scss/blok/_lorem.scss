@@ -1,0 +1,50 @@
+.lorem_section {
+    background: #DBDBDB;
+    padding-top: 98px;
+    padding-bottom: 98px;
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 112%;
+        text-align: center;
+        color: #828282;
+        margin-bottom: 16px;
+    }
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 178%;
+        text-align: center;
+        color: #828282;
+        margin-bottom: 32px;
+    }
+
+    &__btn {
+        width: 212px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 131%;
+        letter-spacing: 0.12em;
+        color: #fff;
+        border-radius: 10px;
+        background: #828282;
+        padding: 20px 28px;
+        
+    }
+
+    @media screen and (min-width:768px) {
+        &__text{
+            width: 676px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
